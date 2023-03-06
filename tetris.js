@@ -77,4 +77,5 @@ Piece.prototype.draw = function() {
 
 // テトロミノの消去
 Piece.prototype.undraw = function() {
- 
+  for (let r = 0; r < this
+       
