@@ -1,3 +1,16 @@
+// コマンドの追加
+function command_add() {
+  // コマンド追加処理
+}
+
+// フォームの送信時にコマンドの追加処理を実行する
+const form = document.querySelector('form');
+form.addEventListener('submit', function(event) {
+  event.preventDefault(); // デフォルトの送信処理をキャンセルする
+  command_add();
+  form.reset(); // フォームをリセットする
+});
+
 // キャンバスの取得
 const canvas = document.getElementById("canvas");
 const context = canvas.getContext("2d");
